@@ -1,6 +1,13 @@
+import Contactanos from "@/components/Contactanos";
+import Footer from "@/components/Footer";
+import Inicio from "@/components/Inicio";
+import Navbar from "@/components/Navbar";
+import Nosotros from "@/components/Nosotros";
+import Servicios from "@/components/Servicios";
 import Head from "next/head";
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -8,9 +15,22 @@ export default function Home() {
           <meta name="description" content="Página principal de Cell Solutions"/>
       </Head>
       <main
-        className="flex items-center flex-col min-h-screen h-fit w-full bg-dark pt-4 md:pt-8 xl:pt-10 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 text-white"
+        className="flex items-center flex-col min-h-screen h-fit w-full bg-dark text-white"
       >
-        Cell Solutions
+        <Navbar/>
+        <section id='inicio' className="">
+          <Inicio />
+        </section>
+        <section id="servicios" className="">
+          <Servicios />
+        </section>
+        <section id="nosotros" className="">
+          <Nosotros />
+        </section>
+        <section id="contactanos" className="">
+          <Contactanos />
+        </section>
+        <Footer/>
       </main>
     </>
   );

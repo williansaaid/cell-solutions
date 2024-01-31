@@ -27,9 +27,12 @@ const config: Config = {
         xs: '1px',
       },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        gradientFirst: "linear-gradient(to bottom, #101208, rgb(122 145 13 / 0.25))",
+        gradientSecond: "linear-gradient(to bottom, rgb(122 145 13 / 0.25), rgb(122 145 13 / 0.5))",
+        gradientThird: "linear-gradient(to left bottom, #FAFFE3, rgb(122 145 13 / 0.75))",
+        gradientFourth: "linear-gradient(to bottom, rgb(122 145 13 / 0.75), rgb(122 145 13))",
+        tech: "url('https://res.cloudinary.com/ds41xxspf/image/upload/v1706657304/4_rtkm6f.jpg')",
+        fix: "url('https://res.cloudinary.com/ds41xxspf/image/upload/v1706657202/Cell-Solutions/3_ismnym.jpg')",
       },
     },
   },

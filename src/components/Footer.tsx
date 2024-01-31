@@ -29,11 +29,18 @@ const Footer = () => {
                             Cell Solutions
                         </p>
                     </div>
-                    <p
-                        className='w-full select-none text-white'
-                    >
-                        ¡Confía en nosotros para mantener tu celular en óptimas condiciones!
-                    </p>
+                    <div className='flex flex-col gap-2'>
+                        <p
+                            className='w-full select-none text-white'
+                        >
+                            ¡Confía en nosotros para mantener tu celular en óptimas condiciones!
+                        </p>
+                        <p
+                            className='w-full select-none text-white'
+                        >
+                            Quito - Ecuador
+                        </p>
+                    </div>
                 </div>
                 <div className='flex flex-col w-1/6 gap-2 text-white'>
                     <a
@@ -56,7 +63,8 @@ const Footer = () => {
                     </a>
                     <a
                         className='cursor-pointer hover:text-green transition duration-300 ease-in-out'
-                        href='#contactanos'
+                        href='https://wa.me/+5930995440312?text=¡Saludos!,%20Me%20interesa%20su%20servicio.'
+                        target='_blank'
                     >
                         Contáctanos
                     </a>
@@ -75,6 +83,7 @@ const Footer = () => {
                 >
                     <SocialIcon
                         url='#'
+                        target='_blank'
                         network="instagram"
                         fgColor='#E2F779'
                         bgColor='#373C1A'
@@ -82,14 +91,24 @@ const Footer = () => {
                     />
                     <SocialIcon
                         url='#'
+                        target='_blank'
                         network="facebook"
                         fgColor='#E2F779'
                         bgColor='#373C1A'
                         style={{height: 35, width: 35}}
                     />
                     <SocialIcon
-                        url='#'
+                        url={`https://wa.me/+5930995440312?text=¡Saludos!,%20Me%20interesa%20su%20servicio.`}
+                        target='_blank'
                         network="whatsapp"
+                        fgColor='#E2F779'
+                        bgColor='#373C1A'
+                        style={{height: 35, width: 35}}
+                    />
+                    <SocialIcon
+                        url="mailto:cellsolutions96@gmail.com"
+                        target='_blank'
+                        network="email"
                         fgColor='#E2F779'
                         bgColor='#373C1A'
                         style={{height: 35, width: 35}}
@@ -110,6 +129,7 @@ const Footer = () => {
                 >
                     <SocialIcon
                         url='#'
+                        target='_blank'
                         network="instagram"
                         fgColor='#E2F779'
                         bgColor='#373C1A'
@@ -117,14 +137,24 @@ const Footer = () => {
                     />
                     <SocialIcon
                         url='#'
+                        target='_blank'
                         network="facebook"
                         fgColor='#E2F779'
                         bgColor='#373C1A'
                         style={{height: 40, width: 40}}
                     />
                     <SocialIcon
-                        url='#'
+                        url={`https://wa.me/+5930995440312?text=¡Saludos!,%20Me%20interesa%20su%20servicio.`}
+                        target='_blank'
                         network="whatsapp"
+                        fgColor='#E2F779'
+                        bgColor='#373C1A'
+                        style={{height: 40, width: 40}}
+                    />
+                    <SocialIcon
+                        url="mailto:cellsolutions96@gmail.com"
+                        target='_blank'
+                        network="email"
                         fgColor='#E2F779'
                         bgColor='#373C1A'
                         style={{height: 40, width: 40}}
