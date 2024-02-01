@@ -82,7 +82,7 @@ const Footer = () => {
                     className='flex justify-center items-center gap-2'
                 >
                     <SocialIcon
-                        url='#'
+                        url='https://www.instagram.com/cellsolution2024?igsh=NXpqYWtvdm8yYzV6'
                         target='_blank'
                         network="instagram"
                         fgColor='#E2F779'
@@ -90,7 +90,7 @@ const Footer = () => {
                         style={{height: 35, width: 35}}
                     />
                     <SocialIcon
-                        url='#'
+                        url='https://www.facebook.com/profile.php?id=61556010454227&mibextid=9R9pXO'
                         target='_blank'
                         network="facebook"
                         fgColor='#E2F779'
@@ -128,7 +128,7 @@ const Footer = () => {
                     className='flex justify-center items-center gap-2'
                 >
                     <SocialIcon
-                        url='#'
+                        url='https://www.instagram.com/cellsolution2024?igsh=NXpqYWtvdm8yYzV6'
                         target='_blank'
                         network="instagram"
                         fgColor='#E2F779'
@@ -136,7 +136,7 @@ const Footer = () => {
                         style={{height: 40, width: 40}}
                     />
                     <SocialIcon
-                        url='#'
+                        url='https://www.facebook.com/profile.php?id=61556010454227&mibextid=9R9pXO'
                         target='_blank'
                         network="facebook"
                         fgColor='#E2F779'
