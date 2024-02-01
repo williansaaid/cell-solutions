@@ -7,7 +7,7 @@ export default function Inicio() {
             <h4
                 className="text-4xl sm:text-5xl sm:pt-12 font-bold md:pb-8"
             >
-                Cell Solutions ¡Tu mejor aliado!
+                Cell Solutions ¡Transformamos problemas en soluciones!
             </h4>
             <div className="mb-8">
                 <p className="text-lg sm:text-xl font-light pb-8 xl:pb-12">
